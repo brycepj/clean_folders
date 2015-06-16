@@ -1,0 +1,18 @@
+{
+  "name": "clean_selected_folders",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "fs-extra": "~0.19.0",
+    "bluebird": "~2.9.30",
+    "lodash": "~3.9.3",
+    "gulp": "~3.9.0",
+    "shelljs": "~0.5.1"
+  }
+}

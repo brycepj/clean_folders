@@ -1,0 +1,16 @@
+{
+	"dirs" : [
+		{
+			"path" : "./Downloads",
+			"name" : "Downloads"
+		},
+		{
+			"path" : "./Documents",
+			"name" : "Documents"
+		},
+		{
+			"path" : "./Desktop",
+			"name" : "Desktop"
+		}
+	]
+}

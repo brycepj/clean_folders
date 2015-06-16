@@ -29,9 +29,9 @@ var cfg = io.readJson(path.join(srcDir, 'config.json'))
 	.then(function(data) {
 		return logDeletions(data);
 	})
-/*	.then(function(data) {
+	.then(function(data) {
 		return emailDeletions(data);
-	})*/
+	})
 	.catch(function(err) {
 		throw err;
 	})
@@ -44,10 +44,6 @@ var cfg = io.readJson(path.join(srcDir, 'config.json'))
 
 /*
 
-- Take a list from a JSON file of folders that I want to globbing patterns. 
-- Loop through the list executing a function that does the logging and the moving to the trash
-- Log them to a file in the logs file
-- Send a summary email to your email saying what was trashed and when it will be permanently 
-	deleted, along with a list of everything that is in the trash
+- remaining: send email with nodemailer
 
 */

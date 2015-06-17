@@ -34,16 +34,4 @@ var cfg = io.readJson(path.join(srcDir, 'config.json'))
 	})
 	.catch(function(err) {
 		throw err;
-	})
-	.finally(function() {
-		console.log('it is finished\n\n');
 	});
-
-
-
-
-/*
-
-- remaining: send email with nodemailer
-
-*/

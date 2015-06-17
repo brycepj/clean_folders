@@ -16,10 +16,10 @@ var emailDeletions = $require('lib/email_deletions');
 
 var cfg = io.readJson(path.join(srcDir, 'config.json'))
 	.then(function(json) {
-		log.info('cfg status', json);
 		return parseCfg(json);
 	})
 	.then(function(data) {
+		log.info('config status', data);
 		return trashFiles(data)
 	})
 	.then(function(data) {
